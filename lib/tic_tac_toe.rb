@@ -31,6 +31,16 @@ def display_board
   end
   
   def position_taken?(index)
-   @board[index] != " "
+   if @board[index] == " "
+     puts true 
+   else 
+     puts false 
+   end
  end
+
+
+
+
+
+
 end
