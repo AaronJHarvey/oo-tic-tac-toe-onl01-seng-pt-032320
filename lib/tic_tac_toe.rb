@@ -41,13 +41,6 @@ end
 def turn
   puts "Please put a number (1-9):"
   num = gets.strip
-  index = input_to_index(num)
-  if valid_move?(index)
-    token = current_player
-  move(index, token)
-else turn 
-end
-display_board
 end
 
 
