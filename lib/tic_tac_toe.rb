@@ -31,8 +31,6 @@ def display_board
   end
   
   def position_taken?(index)
-    if @board[index].include? "x" || "o"
-      p
+    index !=" "
       end
-    end
 end
