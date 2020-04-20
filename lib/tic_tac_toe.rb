@@ -35,7 +35,7 @@ def display_board
  end
 
 def valid_move?(index)
-  !position_taken
+  !position_taken?(index) && index()
 end
 
 
