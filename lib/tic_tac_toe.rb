@@ -41,7 +41,7 @@ end
 def turn
   puts "Please put a number (1-9):"
   num = gets.strip
-  input_to_index(num)
+  index = input_to_index(num)
 end
 
 
