@@ -32,4 +32,5 @@ def display_board
   
   def position_taken?(index)
    @board[index] != " "
+ end
 end
