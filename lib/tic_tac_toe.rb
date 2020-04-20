@@ -43,7 +43,9 @@ def turn
   num = gets.strip
   index = input_to_index(num)
   if valid_move?(index)
-    puts move(index, token = "X")
+    token = current_player
+  else 
+    puts "please enter a valid number"
 end
 
 
