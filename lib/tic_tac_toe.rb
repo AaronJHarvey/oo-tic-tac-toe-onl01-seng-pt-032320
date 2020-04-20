@@ -30,4 +30,11 @@ def display_board
 @board[index] = token
   end
   
+  def position_taken?(index)
+    if @board[index].include? "x" || "o"
+      puts "true"
+    else
+        puts "false"
+      end
+    end
 end
