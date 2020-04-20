@@ -44,8 +44,11 @@ def turn
   index = input_to_index(num)
   if valid_move?(index)
     token = current_player
-  else 
-    puts "please enter a valid number"
+  move(index, token)
+else turn 
+end
+display_board
+end
 end
 
 
