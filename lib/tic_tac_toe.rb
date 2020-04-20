@@ -39,9 +39,7 @@ def valid_move?(index)
 end
 
 def turn_count
- def turn_count
-    @board.count{|square| square != " " }
-  end
+  @board.count{|index| index != " "}
 end
 
 
