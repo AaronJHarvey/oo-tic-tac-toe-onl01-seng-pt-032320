@@ -42,7 +42,9 @@ def turn_count
   @board.count{|index| index != " "}
 end
 
-
+def current_player
+  
+end
 
 def turn
   puts "Please put a number (1-9):"
