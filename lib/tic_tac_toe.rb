@@ -35,11 +35,7 @@ def display_board
  end
 
 def valid_move?(index)
-  if @board[index] = " "
-    puts "true"
-  else 
-    puts "false"
-  end
+  !position_taken
 end
 
 
