@@ -32,9 +32,9 @@ def display_board
   
   def position_taken?(index)
    if @board[index] == " "
-     puts true 
+     puts "true" 
    else 
-     puts false 
+     puts "false" 
    end
  end
 
