@@ -40,7 +40,7 @@ end
 
 def turn
   puts "Please put a number (1-9):"
-  
+  num = gets.strip
 end
 
 
