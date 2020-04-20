@@ -34,6 +34,8 @@ def display_board
    @board[index] != " "
  end
 
+def valid_move?(index)
+end
 
 
 
