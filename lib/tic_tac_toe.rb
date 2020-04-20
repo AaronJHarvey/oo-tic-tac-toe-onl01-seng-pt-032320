@@ -31,6 +31,6 @@ def display_board
   end
   
   def position_taken?(index)
-    @Board[index] !=" "
+    index !=" "
       end
 end
