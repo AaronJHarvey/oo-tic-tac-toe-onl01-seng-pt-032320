@@ -32,9 +32,9 @@ def display_board
   
   def position_taken?(index)
     if @board[index].include? "x" || "o"
-      puts "true"
+      puts "false"
     else
-        puts "false"
+        puts "true"
       end
     end
 end
