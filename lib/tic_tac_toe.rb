@@ -38,13 +38,13 @@ def valid_move?(index)
   !position_taken?(index) && index.between?(0,8)
 end
 
+def turn_count
  def turn_count
     @board.count{|square| square != " " }
   end
+end
 
-def current_player
-    turn_count.even? ? "X" : "O"
-  end
+
 
 def turn
   puts "Please put a number (1-9):"
