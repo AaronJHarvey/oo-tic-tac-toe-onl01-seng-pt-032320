@@ -71,4 +71,7 @@ def full?
   @board.all?{|index| index = " "}
 end
 
+def draw?
+ @board.full?
+end
 end
