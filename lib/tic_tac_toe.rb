@@ -1,12 +1,11 @@
 class TicTacToe
 
   def initialize(board = nil)
-    # @board = board || Array.new(9, " ")
+    @board = board || Array.new(9, " ")
   end
 
   def play
     @board = Array.new(9, " ")
-    # Play until someone wins or there is a draw
     turn until over?
     # Congratulate the winner
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
