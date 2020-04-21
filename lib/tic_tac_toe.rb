@@ -72,6 +72,6 @@ def full?
 end
 
 def draw?
- @board.full?
+ full? & !won?
 end
 end
