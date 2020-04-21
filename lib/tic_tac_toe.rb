@@ -78,4 +78,7 @@ def draw?
  def over? 
    draw? || winner? 
 end
+
+def winner? 
+  win? 
 end
