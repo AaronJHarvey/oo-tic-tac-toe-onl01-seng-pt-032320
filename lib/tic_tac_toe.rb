@@ -67,5 +67,7 @@ WIN_COMBINATIONS.any? do |combo|
     end
   end
 
+def full?
+  WIN_COMBINATIONS.any? do ||
 
 end
