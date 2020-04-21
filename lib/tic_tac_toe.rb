@@ -68,7 +68,7 @@ WIN_COMBINATIONS.any? do |combo|
   end
 
 def full?
-  @board.all{|index| index != " "
+  @board.all{|index| index != " "}
 end
 
 end
