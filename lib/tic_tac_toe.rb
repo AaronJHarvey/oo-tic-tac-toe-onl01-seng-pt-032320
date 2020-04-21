@@ -68,6 +68,6 @@ WIN_COMBINATIONS.any? do |combo|
   end
 
 def full?
-  @
+  @board.all{
 
 end
