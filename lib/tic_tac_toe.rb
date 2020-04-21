@@ -73,5 +73,8 @@ end
 
 def draw?
  full? && !won?
+ 
+ def over? 
+   full? && winner? 
 end
 end
