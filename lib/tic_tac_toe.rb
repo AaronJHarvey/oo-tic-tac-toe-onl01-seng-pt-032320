@@ -68,6 +68,6 @@ WIN_COMBINATIONS.any? do |combo|
   end
 
 def full?
-  WIN_COMBINATIONS.any? do ||
+  @
 
 end
