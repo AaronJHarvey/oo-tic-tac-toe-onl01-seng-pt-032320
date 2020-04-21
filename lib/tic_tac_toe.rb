@@ -80,5 +80,9 @@ def draw?
 end
 
 def winner? 
-  win? 
+ if combo = won?
+      @board[combo[0]]
+    end
+  end
+  
 end
